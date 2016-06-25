@@ -1,0 +1,56 @@
+{
+  "name": "react-contact-form-widget",
+  "version": "1.0.0",
+  "description": "Simple widget to send contact form data",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base build/ --port 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istinspring/react-contact-form-widget.git"
+  },
+  "keywords": [
+    "reactjs",
+    "webpack",
+    "contact",
+    "form",
+    "widget"
+  ],
+  "author": "istinspring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/istinspring/react-contact-form-widget/issues"
+  },
+  "homepage": "https://github.com/istinspring/react-contact-form-widget#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
